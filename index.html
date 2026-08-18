@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singly Linked List Visualizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        input, button {
+            padding: 8px 12px;
+            font-size: 16px;
+        }
+        #output {
+            padding: 15px;
+            background-color: #f4f4f4;
+            border-radius: 6px;
+            min-height: 24px;
+            font-family: monospace;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Singly Linked List Demo</h2>
+
+    <div class="controls">
+        <input type="text" id="nodeValue" placeholder="Enter node value" />
+        <button id="addBtn">Add Node</button>
+    </div>
+
+    <h3>Current List:</h3>
+    <div id="output">List is empty.</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

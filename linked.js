@@ -1,0 +1,15 @@
+‹!DOCTYPE htmL>
+<html>
+<head>
+‹title›Simple JS Insertion</title>
+</head> <body>
+<h1>Sample JS Insertion</h1>
+<hr>
+<p id="output">/p>
+‹script src="linked.js"x/script>
+‹script>
+const list = new LinkedList();
+list.add( "Apple");
+list. add( "Banana"); list. add ("Orange"); list.display();
+</ script>
+</body> </html>
